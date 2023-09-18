@@ -24,7 +24,6 @@ This project is not hosted anywhere, but you can run it locally. You will need t
 2. Run the following commands in the project's root directory:
 
         > npm install && npm run dev
-
 3. Open http://localhost:5173 in your browser
 
 ## Takeaways
