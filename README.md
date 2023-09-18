@@ -17,6 +17,14 @@ This is a very simple application, where users can order one or more pizzas from
 - Each order will get a **unique ID** that should be displayed, so the **user can later look up their order** based on the ID.
 - Users should be able to mark their order as _priority_, **even after it has been placed**.
 
+## How to run
+This project is not hosted anywhere, but you can run it locally. You will need to have Node.js installed.
+
+1. Clone the repository
+2. Run the following commands in the project's root directory:
+    > npm install && npm run dev
+3. Open http://localhost:5173 in your browser
+
 ## Takeaways
 - Altough **Redux** may look like sorcery at first, it's actually quite simple to use. The **Redux-Toolkit** makes it even easier.
 - **React-Router** can be used also for state management with _loaders_ and _actions_. Feels a bit hacky tbh, but it works.
